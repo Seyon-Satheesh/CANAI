@@ -15,7 +15,7 @@ Web App (Flask): <https://github.com/Seyon-Satheesh/CANAI>
 Dataset: <https://www.kaggle.com/datasets/orvile/digital-knee-x-ray-images>
 
 # Documentation
-INSERT LINK HERE
+Project Report: <https://github.com/Seyon-Satheesh/CANAI/blob/main/Report/AI%20Knee%20Osteoarthritis%20Diagnosis.pdf>
 
 # Credit
 Used https://youtu.be/igQeI29FIQM?si=bX3h7_Fz-wnzOc7Z for PyTorch reference
