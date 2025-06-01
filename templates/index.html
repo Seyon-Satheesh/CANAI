@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>AI Knee Osteoarthritis Diagnosis</title>
+    <style>
+        body {
+            background-color: #026C7C;
+            text-align: center;
+            position: relative;
+            height: 100%;
+            width: 100%;
+        }
+
+        div {
+            margin: 0;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, 50%);
+        }
+
+        h1 {
+            color: #FFFFFF;
+            font-size: 500;
+            font-family: Helvetica;
+            /* font-weight: 800; */
+        }
+
+        input[type="file"] {
+            background-color: #055864;
+            display: none;
+            border: 2px solid #ccc;
+            border-radius: 20px;
+            display: inline-block;
+            /* padding: 200px 100px; */
+            cursor: pointer;
+            width: 250px;
+            height: 100px;
+            text-align: center;
+        }
+
+        input[type=file]::file-selector-button {
+            display: none;
+        }
+
+        input[type="submit"] {
+            background-color: #B81365;
+            border: none;
+            width: 200px;
+            height: 50px;
+            border-radius: 20px;
+            color: #FFFFFF;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h1>Input A Knee X-Ray & Our AI System Will Provide A Preliminary Diagnosis</h1>
+        <form action="/diagnosis" method="POST" enctype="multipart/form-data">
+            <input type="file" name="file" accept="image/*" required><br><br>
+            <input type="submit" value="Get Diagnosis">
+        </form>
+    </div>
+</body>
+</html>
