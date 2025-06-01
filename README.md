@@ -6,7 +6,7 @@ INSERT LINK HERE
 
 # AI Model
 Jupyter Notebbok (Google Collab): <https://colab.research.google.com/drive/1rsnk7fwuJKh7oep8VPpg7zKX5e9NPGCA?usp=sharing>
-PyTorch Model (.pt file): 
+PyTorch Model (.pt file): <https://github.com/Seyon-Satheesh/CANAI/blob/main/AI%20Model/AI%20MODEL.pt>
 
 # Project/Source Code File
 Web App (Flask): <https://github.com/Seyon-Satheesh/CANAI>

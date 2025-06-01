@@ -7,6 +7,8 @@ import os
 
 app = Flask(__name__)
 
+classes = ('Normal', 'Doubtful', 'Mild', 'Moderate', 'Severe')
+
 @app.route('/')
 def index():
     return render_template('index.html')
@@ -34,12 +36,10 @@ def diagnosis():
                 (0.5, 0.5, 0.5)
             )
         ])
+        
         tensor = transform(Image.open(file))
-        # print(tensor.shape)
         outputs = model(tensor[None, ...])
 
         _, predicted = torch.max(outputs.data, 1)
 
-        print(predicted)
-
-    return 'Hello, World'
+    return render_template('diagnosis.html', diagnosis=classes[predicted[0].item()])

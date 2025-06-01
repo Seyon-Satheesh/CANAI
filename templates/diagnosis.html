@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>AI Knee Osteoarthritis Diagnosis</title>
+    <style>
+        body {
+            background-color: #026C7C;
+            text-align: center;
+            position: relative;
+            height: 100%;
+            width: 100%;
+        }
+
+        div {
+            margin: 0;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, 50%);
+        }
+
+        h1 {
+            color: #FFFFFF;
+            font-size: 50px;
+            font-family: Helvetica;
+            /* font-weight: 800; */
+        }
+
+        h2 {
+            color: rgba(255, 255, 255, 0.8);
+            font-size: 20px;
+            font-family: Helvetica;
+            /* font-weight: 800; */
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h1>Our AI Model Believes This X-Ray Would Be Classified As {{ diagnosis }}</h1>
+        <h2>Note: This is merely a prediction. This does not qualify as a formal medical diagnosis.</h2>
+    </div>
+</body>
+</html>
