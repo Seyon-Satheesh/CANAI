@@ -2,7 +2,7 @@
 This project is an AI-based knee osteoarthritis diagnosis software designed to help reduce load on the current healthcare system by prioritizing treatment and speeding up detection/diagnosis.
 
 # Technical Pitch Video
-INSERT LINK HERE
+Video: <https://youtu.be/-nSxIv1yruU>
 
 # AI Model
 Jupyter Notebbok (Google Collab): <https://colab.research.google.com/drive/1rsnk7fwuJKh7oep8VPpg7zKX5e9NPGCA?usp=sharing>
